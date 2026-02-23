@@ -1,6 +1,6 @@
 
 import '../App.css';
-import myimage from '../assets/calendar.png';
+import myimage from '../assets/calendar.jpg';
 import EventList from '../components/EventList';
 import { useState, useEffect } from 'react';
 import Searchfield from '../components/Searchfield';
