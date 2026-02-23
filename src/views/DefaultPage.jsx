@@ -54,16 +54,12 @@ const handleInputChange = (event) => {
 
   return (
     <div>
-    
-
+  
     <img src={myimage} alt="calendar picture" />
   
   <Searchfield handleinput = {handleInputChange} filter={filterText} />
   <EventList events={filteredEvents} />
 
-  
-
-    
     </div>
   )
 }

@@ -7,8 +7,8 @@ export default function Header(){
 
         <header> 
             <nav>
-                <Link to= "/">/Home</Link>&nbsp;&nbsp;
-                 <Link to= "/create">/Create event</Link>
+                <Link to= "/">Home</Link>&nbsp;&nbsp;
+                 <Link to= "/create">Create event</Link>
             </nav>
         </header>
 
