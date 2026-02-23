@@ -1,7 +1,5 @@
 
 import '../App.css';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
 import myimage from '../assets/images.png';
 import EventList from '../components/EventList';
 import { useState, useEffect } from 'react';
@@ -56,7 +54,7 @@ const handleInputChange = (event) => {
 
   return (
     <div>
-    <Header/>
+    
 
     <img src={myimage} alt="calendar picture" />
   
@@ -65,7 +63,7 @@ const handleInputChange = (event) => {
 
   
 
-     <Footer/>
+    
     </div>
   )
 }
